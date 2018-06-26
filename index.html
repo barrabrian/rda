@@ -1,1 +1,302 @@
-<h1>Diga olá ao Redação de Aprovado 2.0</h1>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Página de Inscrição</title>
+    <link rel="shortcut icon" type="image/png" href="/assets/img/logo-ra.png"/>
+    <link rel="icon"
+      type="image/png"
+      href="/assets/img/logo-ra.png">
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <link rel="stylesheet" href="css/flat-ui.css">
+    <!-- Using only with Flat-UI (free)-->
+    <link rel="stylesheet" href="css/icon-font.css">
+    <!-- end -->
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- startup master -->
+    <link rel="stylesheet" href="css/startup-master.css">
+
+    <link rel="stylesheet" href="css/bulma.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        $("#bt2").click(function(){
+          $("#fundo-op").css('display','block');
+          $(".popup").css('display','flex');
+        });
+        $("#bt1").click(function(){
+          $("#fundo-op").css('display','block');
+          $(".popup").css('display','flex');
+        });
+        $("#fundo-op").click(function(){
+          $("#fundo-op").css('display','none');
+          $(".popup").css('display','none');
+        });
+        $(".close-op").click(function(){
+          $("#fundo-op").css('display','none');
+          $(".popup").css('display','none');
+        });
+
+      });
+    </script>
+
+
+
+
+  </head>
+  <body>
+
+    <section class="hero is-info bg-img" >
+      <div class="hero-body">
+        <div class="container v-center">
+          <center>
+            <h1 class="title is-5">AULA AO VIVO</h1><br>
+            <h1 class="title is-1">OS 4 PASSOS PARA TORNAR UM SITE RESPONSIVO</h1>
+          </center>
+        </div>
+      </div>
+      <div class="hero-body" style="background: rgba(0,0,0,.5)">
+        <div class="container v-center">
+          <div class="col-sm-3" style="padding-top:18px">
+            <h2 class="title is-4">Dia 07 de Junho</h2>
+            <h2 class="subtitle">20h (GMT -03)</h2>
+          </div>
+          <div class="col-sm-5">
+            <input type="button" class="btn-cta blue" value="QUERO ASSISTIR" id="bt1">
+          </div>
+          <div class="col-sm-4">
+            <div style="text-align:center;">
+
+              <!-- Display the countdown timer in an element -->
+              <div style="">
+                <div class="count-down-dias">
+                  <input type="text" readonly="" id="days">
+                  <div id="cd-d"><span>DIAS</span></div>
+                </div>
+                <div class="count-down-horas">
+                  <input type="text" readonly="" id="hours">
+                  <div id="cd-hr"><span>HRS</span></div>
+                </div>
+                <div class="count-down-horas">
+                  <input type="text" readonly="" id="mins">
+                  <div id="cd-min"><span>MINS</span></div>
+                </div>
+                <div class="count-down-horas">
+                  <input type="text" readonly="" id="secs">
+                  <div id="cd-seg"><span>SEGS</span></div>
+                </div>
+              </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="demo" style="">
+      <div class="container v-center">
+        <h2 class="title is-2 text-center" >NESSA AULA VOCÊ VAI APRENDER:</h2>
+        <br>
+        <div class="col-sm-3 text-center">
+          <span class="feature-block-icon-container">
+            <!-- <img class="feature-block-icon" src="Pensils@2x.png"> -->
+            <span style="font-size: 80px">⚠️</span>
+          </span>
+          <h2 style="font-size:20px;font-style:normal;font-weight:normal;">Os maiores erros cometidos</h2>
+          <p style="font-style:normal;font-weight:300;color:#79818d;">Como evitar os maiores erros que as pessoas cometem ao tornar um site responsivo.</p>
+        </div>
+
+
+        <div class="col-sm-3 text-center">
+          <span class="feature-block-icon-container">
+            <!-- <img class="feature-block-icon" src="Mortarboard2x.png"> -->
+            <span style="font-size: 80px">📱</span>
+          </span>
+          <h2 style="font-size:20px;font-style:normal;font-weight:normal;">Como tornar qualquer site 100% responsivo</h2>
+          <p style="font-style:normal;font-weight:300;color:#79818d;">O passo a passo do método mais eficaz para tornar qualquer site ou sistema web totalmente responsivo.</p>
+        </div>
+
+        <div class="col-sm-3 text-center">
+          <span class="feature-block-icon-container">
+            <!-- <img class="feature-block-icon" src="Mortarboard2x.png"> -->
+            <span style="font-size: 80px">🎯</span>
+          </span>
+          <h2 style="font-size:20px;font-style:normal;font-weight:normal;">O mercado de web design responsivo</h2>
+          <p style="font-style:normal;font-weight:300;color:#79818d;">Como você poderá se aprofundar em web design responsivo e se tornar um dos profissionais mais requisitados do mercado.</p>
+        </div>
+
+        <div class="col-sm-3 text-center">
+          <span class="feature-block-icon-container">
+            <!-- <img class="feature-block-icon" src="Mortarboard2x.png"> -->
+            <span style="font-size: 80px">🙋🏻‍♂️</span>
+          </span>
+          <h2 style="font-size:20px;font-style:normal;font-weight:normal;">Seção de perguntas e respostas</h2>
+          <p style="font-style:normal;font-weight:300;color:#79818d;">No final da aula você vai ter a chance de ter a sua pergunta respondida ao vivo.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="demo" style="background: white;">
+      <div class="container v-center">
+        <div class="col-sm-4">
+          <center>
+            <div style="width:200px; height:200px; border-radius:50%; background: url('br-perfil.jpg') center no-repeat; background-size: cover; margin-bottom: 30px;" ></div>
+          </center>
+        </div>
+        <div class="col-sm-8">
+          <!-- <h2>BRIAN RAMIREZ</h2> -->
+          <div style="background: url('images/logo-br2.png') no-repeat center left; background-size: cover; width: 220px ; height: 30px; margin-bottom: 10px;"></div>
+          <p>
+Técnico em Informática pelo Instituto Federal do Paraná, atualmente atua nas áreas de gerenciamento de projetos, desenvolvimento de painéis de controle, banco de dados, sistemas de baixo e alto nível, interface de programação de aplicações (APIs) e estruturas de dispositivos para a rede de IoT no Centro Latino-americano de Tecnologias Abertas.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="demo" style="">
+      <div class="container v-center">
+        <h2 class="title is-2 text-center">DÚVIDAS FREQUENTES</h2>
+        <br>
+        <div class="col-sm-4 text-center">
+          <span class="feature-block-icon-container">
+            <!-- <img class="feature-block-icon" src="Pensils@2x.png"> -->
+            <span style="font-size: 80px">⏰</span>
+          </span>
+          <h2 style="font-size:20px;font-style:normal;font-weight:normal;">Quando será realizada a Aula ao Vivo?</h2>
+          <p style="font-style:normal;font-weight:300;color:#79818d;">No dia 07 de Junho de 2018, às 20h.</p>
+        </div>
+
+
+        <div class="col-sm-4 text-center">
+          <span class="feature-block-icon-container">
+            <!-- <img class="feature-block-icon" src="Mortarboard2x.png"> -->
+            <span style="font-size: 80px">👨🏻‍💻</span>
+          </span>
+          <h2 style="font-size:20px;font-style:normal;font-weight:normal;">Para que tipo de pessoa essa Aula é indicada?</h2>
+          <p style="font-style:normal;font-weight:300;color:#79818d;">Para desenvolvedores e programadores web que desejam se destacar no mercado e não ser engolido por ele.</p>
+        </div>
+
+        <div class="col-sm-4 text-center">
+          <span class="feature-block-icon-container">
+            <!-- <img class="feature-block-icon" src="Mortarboard2x.png"> -->
+            <span style="font-size: 80px">🔁</span>
+          </span>
+          <h2 style="font-size:20px;font-style:normal;font-weight:normal;">Se eu perder a Aula, posso ver depois?</h2>
+          <p style="font-style:normal;font-weight:300;color:#79818d;">Sim, o replay dessa Aula vai ficar disponível até o dia 12 de Junho de 2018.</p>
+        </div>
+      </div>
+    </section>
+
+  <section class="demo" style="background: white">
+    <div class="container v-center">
+      <center>
+        <h2 class="title is-2">O tempo está acabando!</h2>
+        <h2 class="subtitle">Você vai ficar de fora?</h2>
+      <center>
+      <div style="text-align:center; margin-top:20px">
+
+        <!-- Display the countdown timer in an element -->
+        <div style="padding: 20px;margin: -20px;margin-bottom: 10px;">
+          <div class="count-down-dias blue">
+            <input type="text" readonly="" id="days2">
+            <div id="cd-d"><span>DIAS</span></div>
+          </div>
+          <div class="count-down-horas">
+            <input type="text" readonly="" id="hours2">
+            <div id="cd-hr"><span>HORAS</span></div>
+          </div>
+          <div class="count-down-horas">
+            <input type="text" readonly="" id="mins2">
+            <div id="cd-min"><span>MINUTOS</span></div>
+          </div>
+          <div class="count-down-horas">
+            <input type="text" readonly="" id="secs2">
+            <div id="cd-seg"><span>SEGUNDOS</span></div>
+          </div>
+        </div>
+
+        <script>
+          // Set the date we're counting down to
+          var countDownDate = new Date("Jun 07, 2018 20:00:00").getTime();
+
+          // Update the count down every 1 second
+          var x = setInterval(function() {
+
+            // Get todays date and time
+            var now = new Date().getTime();
+
+            // Find the distance between now an the count down date
+            var distance = countDownDate - now;
+
+            // Time calculations for days, hours, minutes and seconds
+            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the result in the element with id="demo"
+            document.getElementById("secs").value = seconds ;
+            document.getElementById("mins").value = minutes ;
+            document.getElementById("hours").value = hours ;
+            document.getElementById("days").value = days ;
+
+            document.getElementById("secs2").value = seconds ;
+            document.getElementById("mins2").value = minutes ;
+            document.getElementById("hours2").value = hours ;
+            document.getElementById("days2").value = days ;
+
+            // If the count down is finished, write some text
+            if (distance < 0) {
+              clearInterval(x);
+              // window.location = "ao-vivo.html";
+            }
+          }, 1000);
+        </script>
+      </div>
+
+      <input type="button" class="btn-cta blue" value="QUERO ASSISTIR" style="width: 90% !important;" id="bt2">
+    </div>
+  </section>
+
+    <!-- footer-3 -->
+    <footer class="footer-3 " style="background: #141618;">
+      <div class="container">
+        <div class="row v-center">
+          <div class="col-sm-12">
+            <center>
+              2018 Todos os direitos reservados
+            </center>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+    <section class="popup">
+      <button style="width: 30px; font-weight:900;" class="close-op">X</button>
+      <div class="popup-container">
+        <div class="popup-content">
+          <form id="form" class="popup-form" action="https://facebook.us15.list-manage.com/subscribe/post?u=70aa1d30729c7740cc91c4f42&amp;id=cc7a7e1016" name="mc-embedded-subscribe-form" method="post">
+            <h2 style="color: rgb(57, 148, 255); font-size: 1.8rem;">Coloque seu e-mail abaixo e confirme sua inscrição para a Aula ao Vivo</h2>
+            <br>
+            <input type="email" id="email" class="popup-input" name="EMAIL" placeholder="Digite seu melhor e-mail aqui" required>
+            <input type="hidden" name="acao" value="optin">
+            <input type="submit" class="op-btn blue" value="QUERO ME INSCREVER">
+          </form>
+          <br>
+           <p style="font-weight:100;font-size:.8rem;"><span class="glyphicon glyphicon-lock"></span> Suas informações estão seguras</p>
+        </div>
+      </div>
+    </section>
+
+    <div id="fundo-op" style="display:none">
+
+  </body>
+</html>
