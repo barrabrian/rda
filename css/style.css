@@ -554,8 +554,8 @@ background: #09AE9F;
 }
 
 .list-item{
-  color: blue;
-  border: 1px solid blue;
+  color: orange;
+  border: 1px solid orange;
   border-radius: 50%;
   padding: 3px 9px;
   margin-right: 10px;
@@ -599,8 +599,8 @@ figcaption .mail-body{
 }
 
 .bg-img{
-	background: url('images/2.jpg') no-repeat;
-	background-position: 25% 15%;
+	background: url('../img/educacional-surdos.jpg') no-repeat;
+	background-position: center;
 	background-attachment:fixed;
 	-webkit-background-size: auto;
 }
@@ -668,7 +668,7 @@ figcaption .mail-body{
 	}
 
 	.title.is-1{
-		font-size: 2rem;
+		/* font-size: 2rem; */
 	}
 
 	.close-op{
@@ -709,7 +709,7 @@ figcaption .mail-body{
 	}
 
 	.title.is-1{
-		font-size: 2rem;
+		/* font-size: 2rem; */
 	}
 
 	.close-op{
