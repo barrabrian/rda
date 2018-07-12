@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Pré-abertura</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo-ra.png"/>
+    <link rel="icon"
+      type="image/png"
+      href="img/logo-ra.png">
+
+      <link rel="stylesheet" href="css/bootstrap.css">
+
+      <link rel="stylesheet" href="css/flat-ui.css">
+      <!-- Using only with Flat-UI (free)-->
+      <link rel="stylesheet" href="css/icon-font.css">
+      <!-- end -->
+      <link rel="stylesheet" href="css/animations.css">
+
+      <!-- startup master -->
+      <link rel="stylesheet" href="css/startup-master.css">
+
+      <link rel="stylesheet" href="css/bulma.css">
+      <link rel="stylesheet" href="css/style.css">
+
+
+  </head>
+  <body>
+
+    <header class="header-10 v-center" style="background: #141618">
+      <div class="container">
+        <div class="row">
+          <div class="navbar col-sm-12" role="navigation" style="background: transparent">
+            <div class="navbar-header">
+              <a class="brand" href="#"><img src="img/rda-logo.png" style="width:214px; height:48px" alt="Redação de Aprovado"></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="hero is-info" style="background: url('img/educacional-surdos.jpg') no-repeat; background-attachment:fixed; -webkit-background-size: auto; min-height: calc(100vh - 80px);">
+      <div style="position: absolute;background: rgba(0, 0, 0, .3);width: 100%;height: 100%;"></div>
+      <div class="hero-body" style="display:flex; flex-direction: column; justify-content: center;">
+        <div class="container v-center">
+          <center>
+            <h1 class="title is-5 has-text-warning">AULA ONLINE</h1>
+            <br>
+            <h1 class="title is-1">A AULA ENTRA NO AR EM</h1>
+          </center>
+
+          <br>
+          <div class="row">
+            <div class="col-md-offset-1 col-md-10" style="padding: 30px 20px; border-radius: 2px; min-height: 330px; background-color: #fbfbfb; border: 1px solid #dbdbdb; display: flex;flex-direction: column;justify-content: center;">
+              <div class="col-sm-12">
+
+
+                <div style="text-align:center; margin-top:20px">
+
+                  <!-- Display the countdown timer in an element -->
+                  <div style="padding: 20px;margin: -20px;margin-bottom: 10px;">
+                    <div class="count-down-dias">
+                      <input type="text" readonly="" id="days">
+                      <div id="cd-d"><span>DIAS</span></div>
+                    </div>
+                    <div class="count-down-horas">
+                      <input type="text" readonly="" id="hours">
+                      <div id="cd-hr"><span>HORAS</span></div>
+                    </div>
+                    <div class="count-down-horas">
+                      <input type="text" readonly="" id="mins">
+                      <div id="cd-min"><span>MINUTOS</span></div>
+                    </div>
+                    <div class="count-down-horas">
+                      <input type="text" readonly="" id="secs">
+                      <div id="cd-seg"><span>SEGUNDOS</span></div>
+                    </div>
+                  </div>
+
+                  <script>
+                    // Set the date we're counting down to
+                    var countDownDate = new Date("Jul 19, 2018 20:00:00").getTime();
+
+                    // Update the count down every 1 second
+                    var x = setInterval(function() {
+
+                      // Get todays date and time
+                      var now = new Date().getTime();
+
+                      // Find the distance between now an the count down date
+                      var distance = countDownDate - now;
+
+                      // Time calculations for days, hours, minutes and seconds
+                      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                      // Display the result in the element with id="demo"
+                      document.getElementById("secs").value = seconds ;
+                      document.getElementById("mins").value = minutes ;
+                      document.getElementById("hours").value = hours ;
+                      document.getElementById("days").value = days ;
+
+                      // If the count down is finished, write some text
+                      if (distance < 0) {
+                        clearInterval(x);
+                        window.location = "video-aula.html";
+                      }
+                    }, 1000);
+                  </script>
+                </div>
+
+                <center>
+                  <p style="color: #777;">Clique no botão abaixo para receber atualizações e ser notificado sobre a Aula no <b>Facebook</b>.</p>
+<!--                   <button onclick="window.location = 'https://m.me/2148453515441027'" class="btn-cta" >ME LEMBRE DA AULA</button> -->
+
+								<!-- ManyChat -->
+<script src="https://widget.manychat.com/2148453515441027.js" async="async">
+</script>
+
+<div class="mcwidget-embed" data-widget-id="2123616"></div>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="demo" style="">
+      <div class="container v-center">
+        <h2 class="title is-2 text-center" >NESSA AULA VOCÊ VAI APRENDER:</h2>
+        <br>
+        <div class="col-sm-4 text-center">
+          <span class="feature-block-icon-container">
+            <!-- <img class="feature-block-icon" src="Pensils@2x.png"> -->
+            <span style="font-size: 80px">⚠️</span>
+          </span>
+          <h2 style="font-size:20px;font-style:normal;font-weight:normal;">Os maiores erros cometidos</h2>
+          <p style="font-style:normal;font-weight:300;color:#79818d;">Como evitar os maiores erros que as pessoas cometem ao fazer uma redação.</p>
+        </div>
+
+
+        <div class="col-sm-4 text-center">
+          <span class="feature-block-icon-container">
+            <!-- <img class="feature-block-icon" src="Mortarboard2x.png"> -->
+            <span style="font-size: 80px">📝</span>
+          </span>
+          <h2 style="font-size:20px;font-style:normal;font-weight:normal;">Como fazer uma redação do zero</h2>
+          <p style="font-style:normal;font-weight:300;color:#79818d;">Todos começam do zero. Mesmo que você nunca tenha feito uma redação, você vai encontrar aqui o <strong>passo-a-passo </strong> para começar.</p>
+        </div>
+
+        <div class="col-sm-4 text-center">
+          <span class="feature-block-icon-container">
+            <!-- <img class="feature-block-icon" src="Mortarboard2x.png"> -->
+            <span style="font-size: 80px">🤩</span>
+          </span>
+          <h2 style="font-size:20px;font-style:normal;font-weight:normal;">Como fazer uma redação acima da média</h2>
+          <p style="font-style:normal;font-weight:300;color:#79818d;">Ideias a maioria têm. A diferença é como você executa e o que você faz com elas.</p>
+        </div>
+
+    </section>
+
+
+    <!-- footer-3 -->
+    <footer class="footer-3" style="background: #141618;">
+      <div class="container">
+        <div class="row v-center">
+          <div class="col-sm-12">
+            <center>
+              2018 Todos os direitos reservados
+            </center>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+
+
+  </body>
+</html>
